@@ -56,9 +56,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TH1_54_Hiep\TH1_54_Hiep.csproj">
+    <ProjectReference Include="..\CalculatorForm\CalculatorForm.csproj">
       <Project>{cb7026d9-6ad0-40d0-a1a3-63d8cc7820f9}</Project>
-      <Name>TH1_54_Hiep</Name>
+      <Name>CalculatorForm</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

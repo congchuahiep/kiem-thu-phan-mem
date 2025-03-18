@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TH1_54_Hiep
+namespace CalculatorForm
 {
     public class Calculation_54_Hiep
     {
