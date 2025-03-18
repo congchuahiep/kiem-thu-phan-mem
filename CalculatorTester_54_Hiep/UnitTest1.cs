@@ -78,5 +78,29 @@ namespace CalculatorTester_54_Hiep
             int actual = c.Execute("+");
             Assert.AreEqual(expected, actual);
         }
+        
+        [DataSource(
+            "Microsoft.VisualStudio.TestTools.DataSource.CSV",
+            @".\Data\TestDataFourColumn.csv",
+            "TestDataFourColumn#csv",
+            DataAccessMethod.Sequential
+        )]
+        [TestMethod] // TC7:
+        public void TestWithDataSourceAndOperator()
+        {
+            int a = int.Parse(TestContext.DataRow[0].ToString());
+            int b = int.Parse(TestContext.DataRow[1].ToString());
+
+            String opterator = TestContext.DataRow[2].ToString();
+            opterator = opterator.Substring(1);
+
+            TestContext.WriteLine(opterator);
+
+            int expected = int.Parse(TestContext.DataRow[3].ToString());
+
+            Calculation_54_Hiep c = new Calculation_54_Hiep(a, b);
+            int actual = c.Execute(opterator);
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
