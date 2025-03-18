@@ -9,7 +9,7 @@
 //------------------------------------------------------------------------------
 
 
-namespace TH1_54_Hiep.Properties
+namespace CalculatorForm.Properties
 {
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.

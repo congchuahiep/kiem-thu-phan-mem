@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using TH1_54_Hiep;
+using CalculatorForm;
 
 namespace CalculatorTester_54_Hiep
 {

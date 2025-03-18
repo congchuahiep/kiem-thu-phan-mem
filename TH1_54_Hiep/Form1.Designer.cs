@@ -1,5 +1,5 @@
 ﻿
-namespace TH1_54_Hiep
+namespace CalculatorForm
 {
     partial class Form1
     {

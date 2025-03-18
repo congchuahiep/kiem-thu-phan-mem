@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TH1_54_Hiep
+namespace CalculatorForm
 {
     public partial class Form1 : Form
     {
