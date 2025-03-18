@@ -56,7 +56,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TH1_54_Hiep\CalculatorForm.csproj">
+    <ProjectReference Include="..\CalculatorForm\CalculatorForm.csproj">
       <Project>{cb7026d9-6ad0-40d0-a1a3-63d8cc7820f9}</Project>
       <Name>CalculatorForm</Name>
     </ProjectReference>
