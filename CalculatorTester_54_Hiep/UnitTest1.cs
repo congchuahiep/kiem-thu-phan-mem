@@ -15,6 +15,8 @@ namespace CalculatorTester_54_Hiep
             c = new Calculation_54_Hiep(21, 7);
         }
 
+        public TestContext TestContext { get; set; }
+
         [TestMethod] // TC1: a = 21, b = 7, kq = 28
         public void TC1_Test_Cong_54_Hiep()
         {
@@ -61,6 +63,20 @@ namespace CalculatorTester_54_Hiep
         {
             c = new Calculation_54_Hiep(5, 0);
             c.Execute("/");
+        }
+
+        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV",
+            @".\Data\TestData.csv", "TestData#csv", DataAccessMethod.Sequential)]
+        [TestMethod] // TC6:
+        public void TestWithDataSource()
+        {
+            int a = int.Parse(TestContext.DataRow[0].ToString());
+            int b = int.Parse(TestContext.DataRow[1].ToString());
+            int expected = int.Parse(TestContext.DataRow[2].ToString());
+
+            Calculation_54_Hiep c = new Calculation_54_Hiep(a, b);
+            int actual = c.Execute("+");
+            Assert.AreEqual(expected, actual);
         }
     }
 }
