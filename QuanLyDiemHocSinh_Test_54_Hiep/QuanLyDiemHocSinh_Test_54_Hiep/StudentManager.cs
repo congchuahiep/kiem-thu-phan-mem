@@ -52,5 +52,32 @@ namespace QuanLyDiemHocSinh_Test_54_Hiep
 
             student.FullName = newFullName;
         }
+
+        public void AddScoreToStudent (string id, string subject, string score)
+        {
+            var student = students.FirstOrDefault(s => s.Id == id);
+
+            if (student == null)
+                throw new KeyNotFoundException("Không tìm thấy sinh viên.");
+
+            if (!double.TryParse(score, out double scoreValue))
+                throw new FormatException("Điểm không hợp lệ!");
+
+            if (string.IsNullOrWhiteSpace(subject))
+                throw new ArgumentException("Môn học không được để trống.");
+
+            student.AddScore(subject, scoreValue); // cập nhật hoặc thêm mới
+        }
+
+        public void DeleteScoreFormStudent (string id, string subject)
+        {
+            var student = students.FirstOrDefault(s => s.Id==id);
+
+            if (student == null)
+                throw new KeyNotFoundException("Không tìm thấy sinh viên.");
+
+            student.RemoveScore(subject);
+        }
+
     }
 }

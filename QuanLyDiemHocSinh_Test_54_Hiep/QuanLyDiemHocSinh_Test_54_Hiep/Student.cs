@@ -29,6 +29,14 @@ namespace QuanLyDiemHocSinh_Test_54_Hiep
             Scores[subjectName] = score;
         }
 
+        public void RemoveScore(string subject)
+        {
+            if (!Scores.ContainsKey(subject))
+                throw new InvalidOperationException("Không tìm thấy môn học để xoá.");
+
+            Scores.Remove(subject);
+        }
+
         public double GetAverage()
         {
             if (Scores.Count == 0) return 0;
