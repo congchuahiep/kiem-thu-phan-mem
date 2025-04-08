@@ -49,6 +49,10 @@
             this.headerSubject = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.headerScore = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.buttonDeleteScore_54_Hiep = new System.Windows.Forms.Button();
+            this.labelAvgScore_54_Hiep = new System.Windows.Forms.Label();
+            this.textBoxAvgScore_54_Hiep = new System.Windows.Forms.TextBox();
+            this.textBoxRanking_54_Hiep = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.groupBoxHocSinh_54_Hiep.SuspendLayout();
             this.groupBoxDetailStudent_54_Hiep.SuspendLayout();
             this.groupBoxScore_54_Hiep.SuspendLayout();
@@ -162,6 +166,10 @@
             // 
             // groupBoxScore_54_Hiep
             // 
+            this.groupBoxScore_54_Hiep.Controls.Add(this.label2);
+            this.groupBoxScore_54_Hiep.Controls.Add(this.textBoxRanking_54_Hiep);
+            this.groupBoxScore_54_Hiep.Controls.Add(this.textBoxAvgScore_54_Hiep);
+            this.groupBoxScore_54_Hiep.Controls.Add(this.labelAvgScore_54_Hiep);
             this.groupBoxScore_54_Hiep.Controls.Add(this.buttonDeleteScore_54_Hiep);
             this.groupBoxScore_54_Hiep.Controls.Add(this.listViewScore_54_Hiep);
             this.groupBoxScore_54_Hiep.Controls.Add(this.label1);
@@ -172,7 +180,7 @@
             this.groupBoxScore_54_Hiep.Controls.Add(this.labelSubject_54_Hiep);
             this.groupBoxScore_54_Hiep.Location = new System.Drawing.Point(12, 419);
             this.groupBoxScore_54_Hiep.Name = "groupBoxScore_54_Hiep";
-            this.groupBoxScore_54_Hiep.Size = new System.Drawing.Size(651, 453);
+            this.groupBoxScore_54_Hiep.Size = new System.Drawing.Size(651, 492);
             this.groupBoxScore_54_Hiep.TabIndex = 3;
             this.groupBoxScore_54_Hiep.TabStop = false;
             this.groupBoxScore_54_Hiep.Text = "Điểm của học sinh";
@@ -270,11 +278,49 @@
             this.buttonDeleteScore_54_Hiep.UseVisualStyleBackColor = true;
             this.buttonDeleteScore_54_Hiep.Click += new System.EventHandler(this.buttonDeleteScore_54_Hiep_Click);
             // 
+            // labelAvgScore_54_Hiep
+            // 
+            this.labelAvgScore_54_Hiep.AutoSize = true;
+            this.labelAvgScore_54_Hiep.Location = new System.Drawing.Point(356, 407);
+            this.labelAvgScore_54_Hiep.Name = "labelAvgScore_54_Hiep";
+            this.labelAvgScore_54_Hiep.Size = new System.Drawing.Size(125, 20);
+            this.labelAvgScore_54_Hiep.TabIndex = 7;
+            this.labelAvgScore_54_Hiep.Text = "Điểm trung bình:";
+            // 
+            // textBoxAvgScore_54_Hiep
+            // 
+            this.textBoxAvgScore_54_Hiep.ForeColor = System.Drawing.Color.Black;
+            this.textBoxAvgScore_54_Hiep.Location = new System.Drawing.Point(487, 407);
+            this.textBoxAvgScore_54_Hiep.Name = "textBoxAvgScore_54_Hiep";
+            this.textBoxAvgScore_54_Hiep.ReadOnly = true;
+            this.textBoxAvgScore_54_Hiep.Size = new System.Drawing.Size(111, 26);
+            this.textBoxAvgScore_54_Hiep.TabIndex = 8;
+            this.textBoxAvgScore_54_Hiep.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBoxRanking_54_Hiep
+            // 
+            this.textBoxRanking_54_Hiep.ForeColor = System.Drawing.Color.Black;
+            this.textBoxRanking_54_Hiep.Location = new System.Drawing.Point(486, 438);
+            this.textBoxRanking_54_Hiep.Name = "textBoxRanking_54_Hiep";
+            this.textBoxRanking_54_Hiep.ReadOnly = true;
+            this.textBoxRanking_54_Hiep.Size = new System.Drawing.Size(111, 26);
+            this.textBoxRanking_54_Hiep.TabIndex = 9;
+            this.textBoxRanking_54_Hiep.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(356, 441);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(70, 20);
+            this.label2.TabIndex = 10;
+            this.label2.Text = "Xếp loại:";
+            // 
             // FormMain_54_Hiep
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(675, 884);
+            this.ClientSize = new System.Drawing.Size(675, 923);
             this.Controls.Add(this.groupBoxScore_54_Hiep);
             this.Controls.Add(this.groupBoxDetailStudent_54_Hiep);
             this.Controls.Add(this.groupBoxHocSinh_54_Hiep);
@@ -312,6 +358,10 @@
         private System.Windows.Forms.ColumnHeader headerSubject;
         private System.Windows.Forms.ColumnHeader headerScore;
         private System.Windows.Forms.Button buttonDeleteScore_54_Hiep;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBoxRanking_54_Hiep;
+        private System.Windows.Forms.TextBox textBoxAvgScore_54_Hiep;
+        private System.Windows.Forms.Label labelAvgScore_54_Hiep;
     }
 }
 

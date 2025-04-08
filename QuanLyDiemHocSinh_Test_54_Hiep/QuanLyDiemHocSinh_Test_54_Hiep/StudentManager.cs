@@ -79,5 +79,24 @@ namespace QuanLyDiemHocSinh_Test_54_Hiep
             student.RemoveScore(subject);
         }
 
+        public double CalculateAvgScore (string id)
+        {
+            var student = students.FirstOrDefault(s => s.Id == id);
+
+            if (student == null)
+                throw new KeyNotFoundException("Không tìm thấy sinh viên.");
+
+            return student.GetAverageScore();
+        }
+
+        public string CalculateGrate (string id)
+        {
+            var student = students.FirstOrDefault(s => s.Id == id);
+
+            if (student == null)
+                throw new KeyNotFoundException("Không tìm thấy sinh viên.");
+
+            return student.GetGrade();
+        }
     }
 }

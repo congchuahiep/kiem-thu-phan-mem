@@ -61,6 +61,9 @@ namespace QuanLyDiemHocSinh_Test_54_Hiep
                 item.SubItems.Add(score.Value.ToString()); // điểm
                 listViewScore_54_Hiep.Items.Add(item);
             }
+
+            textBoxAvgScore_54_Hiep.Text = studentManager.CalculateAvgScore(student.Id).ToString();
+            textBoxRanking_54_Hiep.Text = studentManager.CalculateGrate(student.Id);
         }
 
 

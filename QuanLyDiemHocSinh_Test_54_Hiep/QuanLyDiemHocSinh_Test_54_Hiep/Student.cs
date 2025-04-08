@@ -37,7 +37,7 @@ namespace QuanLyDiemHocSinh_Test_54_Hiep
             Scores.Remove(subject);
         }
 
-        public double GetAverage()
+        public double GetAverageScore()
         {
             if (Scores.Count == 0) return 0;
 
@@ -46,7 +46,9 @@ namespace QuanLyDiemHocSinh_Test_54_Hiep
 
         public string GetGrade()
         {
-            double avg = GetAverage();
+            double avg = GetAverageScore();
+
+            if (Scores.Count == 0) return "";
 
             if (avg >= 8.5) return "Giỏi";
             else if (avg >= 7) return "Khá";
