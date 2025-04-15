@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
 
-namespace QuanLyDiemHocSinh_Test_54_Hiep
+namespace QuanLyDiemHocSinh_54_Hiep
 {
     public class Student
     {

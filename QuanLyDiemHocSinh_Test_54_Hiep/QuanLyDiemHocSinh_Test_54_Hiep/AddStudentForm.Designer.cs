@@ -1,4 +1,4 @@
-﻿namespace QuanLyDiemHocSinh_Test_54_Hiep
+﻿namespace QuanLyDiemHocSinh_54_Hiep
 {
     partial class AddStudentForm
     {
@@ -93,6 +93,7 @@
             this.buttonCancel_54_Hiep.TabIndex = 5;
             this.buttonCancel_54_Hiep.Text = "Huỷ";
             this.buttonCancel_54_Hiep.UseVisualStyleBackColor = false;
+            this.buttonCancel_54_Hiep.Click += new System.EventHandler(this.buttonCancel_54_Hiep_Click);
             // 
             // AddStudentForm
             // 

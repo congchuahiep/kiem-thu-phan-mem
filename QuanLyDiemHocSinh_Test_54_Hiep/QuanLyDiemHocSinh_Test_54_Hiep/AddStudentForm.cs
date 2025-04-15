@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
 
-namespace QuanLyDiemHocSinh_Test_54_Hiep
+namespace QuanLyDiemHocSinh_54_Hiep
 {
     public partial class AddStudentForm: Form
     {
@@ -39,6 +39,11 @@ namespace QuanLyDiemHocSinh_Test_54_Hiep
             {
                 MessageBox.Show($"Lỗi: {ex.Message}", "Lỗi nhập liệu", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void buttonCancel_54_Hiep_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

@@ -19,6 +19,9 @@ namespace CalculatorForm
         public int Execute(string calSymbol)
         {
             int result = 0;
+
+            calSymbol = calSymbol.Trim('\'');
+
             switch (calSymbol)
             {
                 case "+":

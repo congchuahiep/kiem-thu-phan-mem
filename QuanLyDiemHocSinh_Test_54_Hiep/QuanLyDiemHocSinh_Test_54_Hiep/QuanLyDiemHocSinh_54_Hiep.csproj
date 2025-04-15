@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{AC961734-4BB0-4C40-A9CB-D2C90163F972}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>QuanLyDiemHocSinh_Test_54_Hiep</RootNamespace>
-    <AssemblyName>QuanLyDiemHocSinh_Test_54_Hiep</AssemblyName>
+    <RootNamespace>QuanLyDiemHocSinh_54_Hiep</RootNamespace>
+    <AssemblyName>QuanLyDiemHocSinh_54_Hiep</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -76,6 +76,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

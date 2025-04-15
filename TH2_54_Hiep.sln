@@ -5,7 +5,7 @@ VisualStudioVersion = 17.13.35828.75
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorTester_54_Hiep", "CalculatorTester_54_Hiep\CalculatorTester_54_Hiep.csproj", "{EEBCCC69-7525-4345-BCB7-152E14AEA30A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorForm", "CalculatorForm\CalculatorForm.csproj", "{CB7026D9-6AD0-40D0-A1A3-63D8CC7820F9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorForm_54_Hiep", "CalculatorForm\CalculatorForm_54_Hiep.csproj", "{CB7026D9-6AD0-40D0-A1A3-63D8CC7820F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

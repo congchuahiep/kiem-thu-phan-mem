@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace QuanLyDiemHocSinh_Test_54_Hiep
+namespace QuanLyDiemHocSinh_54_Hiep
 {
     public class StudentManager
     {

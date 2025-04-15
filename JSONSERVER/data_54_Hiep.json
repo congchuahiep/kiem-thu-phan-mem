@@ -1,0 +1,74 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "name": "Gạo Jasmine",
+            "category": "Thực phẩm",
+            "price": 18000,
+            "quantity": 50,
+            "brand": "Hương Việt",
+            "expirationDate": "2025-12-30",
+            "supplier": "Công ty Lương Thực Việt Nam"
+        },
+        {
+            "id": 2,
+            "name": "Sữa tươi Vinamilk",
+            "category": "Đồ uống",
+            "price": 25000,
+            "quantity": 30,
+            "brand": "Vinamilk",
+            "expirationDate": "2025-08-15",
+            "supplier": "Vinamilk Việt Nam"
+        },
+        {
+            "id": 3,
+            "name": "Bánh mì nguyên cám",
+            "category": "Bánh kẹo",
+            "price": 15000,
+            "quantity": 20,
+            "brand": "ABC Bakery",
+            "expirationDate": "2025-04-18",
+            "supplier": "ABC Bakery"
+        },
+        {
+            "id": 4,
+            "name": "Nước ngọt Coca-Cola",
+            "category": "Đồ uống",
+            "price": 12000,
+            "quantity": 100,
+            "brand": "Coca-Cola",
+            "expirationDate": "2026-06-22",
+            "supplier": "Coca-Cola Việt Nam"
+        },
+        {
+            "id": 5,
+            "name": "Dầu ăn Tường An",
+            "category": "Gia vị",
+            "price": 60000,
+            "quantity": 40,
+            "brand": "Tường An",
+            "expirationDate": "2027-02-10",
+            "supplier": "Tường An Việt Nam"
+        },
+        {
+            "id": 6,
+            "name": "Trứng gà công nghiệp",
+            "category": "Thực phẩm",
+            "price": 3000,
+            "quantity": 200,
+            "brand": "CP Foods",
+            "expirationDate": "2025-05-05",
+            "supplier": "CP Foods"
+        },
+        {
+            "id": 7,
+            "name": "Bột giặt Omo",
+            "category": "Hóa phẩm",
+            "price": 75000,
+            "quantity": 50,
+            "brand": "Omo",
+            "expirationDate": "2028-07-01",
+            "supplier": "Unilever Việt Nam"
+        }
+    ]
+}

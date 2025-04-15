@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace QuanLyDiemHocSinh_54_Hiep
+namespace TestWebDriver_54_Hiep
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace QuanLyDiemHocSinh_54_Hiep
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormMain_54_Hiep());
+            Application.Run(new AutoTest_WebDriver_54_Hiep());
         }
     }
 }

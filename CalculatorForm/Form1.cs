@@ -29,52 +29,52 @@ namespace CalculatorForm
 
         private void buttonCong_54_Hiep_Click(object sender, EventArgs e)
         {
-            int a, b, ketqua;
+            int a, b;
 
             a = int.Parse(textBoxNumber1_54_Hiep.Text);
             b = int.Parse(textBoxNumber2_54_Hiep.Text);
 
             Calculation_54_Hiep c = new Calculation_54_Hiep(a, b);
-            ketqua = c.Execute("+");
+            int ketqua = c.Execute("+");
 
             textBoxKetQua_54_Hiep.Text = ketqua.ToString();
         }
 
         private void buttonTru_54_Hiep_Click(object sender, EventArgs e)
         {
-            int a, b, ketqua;
+            int a, b;
 
             a = int.Parse(textBoxNumber1_54_Hiep.Text);
             b = int.Parse(textBoxNumber2_54_Hiep.Text);
 
             Calculation_54_Hiep c = new Calculation_54_Hiep(a, b);
-            ketqua = c.Execute("-");
+            int ketqua = c.Execute("-");
 
             textBoxKetQua_54_Hiep.Text = ketqua.ToString();
         }
 
         private void buttonNhan_54_Hiep_Click(object sender, EventArgs e)
         {
-            int a, b, ketqua;
+            int a, b;
 
             a = int.Parse(textBoxNumber1_54_Hiep.Text);
             b = int.Parse(textBoxNumber2_54_Hiep.Text);
 
             Calculation_54_Hiep c = new Calculation_54_Hiep(a, b);
-            ketqua = c.Execute("*");
+            int ketqua = c.Execute("*");
 
             textBoxKetQua_54_Hiep.Text = ketqua.ToString();
         }
 
         private void buttonChia_54_Hiep_Click(object sender, EventArgs e)
         {
-            int a, b, ketqua;
+            int a, b;
 
             a = int.Parse(textBoxNumber1_54_Hiep.Text);
             b = int.Parse(textBoxNumber2_54_Hiep.Text);
 
             Calculation_54_Hiep c = new Calculation_54_Hiep(a, b);
-            ketqua = c.Execute("/");
+            int ketqua = c.Execute("/");
 
             textBoxKetQua_54_Hiep.Text = ketqua.ToString();
         }

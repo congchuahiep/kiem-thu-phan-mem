@@ -1,0 +1,16 @@
+{
+  "name": "jsonserver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch data_54_Hiep.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "54_Hiep",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "i": "^0.3.7",
+    "json-server": "^1.0.0-beta.3"
+  }
+}

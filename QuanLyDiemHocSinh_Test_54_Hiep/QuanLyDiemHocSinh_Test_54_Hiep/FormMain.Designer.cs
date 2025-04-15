@@ -1,4 +1,4 @@
-﻿namespace QuanLyDiemHocSinh_Test_54_Hiep
+﻿namespace QuanLyDiemHocSinh_54_Hiep
 {
     partial class FormMain_54_Hiep
     {

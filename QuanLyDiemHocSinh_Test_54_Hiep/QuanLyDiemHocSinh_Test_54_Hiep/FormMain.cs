@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace QuanLyDiemHocSinh_Test_54_Hiep
+namespace QuanLyDiemHocSinh_54_Hiep
 {
     public partial class FormMain_54_Hiep: Form
     {
